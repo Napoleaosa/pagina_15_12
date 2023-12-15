@@ -1,0 +1,59 @@
+#Total{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr, 6fr;
+ 
+}
+
+
+#logo{
+    display: grid;
+    justify-content: center;
+    
+}
+
+#menu{
+    display: grid;
+    justify-content: flex-start;
+}
+#menu button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#dados_adm {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#dados_adm img{
+    width: 125px;
+    height: 125px;
+    
+}
+
+#pesquisa{
+    display: grid;
+    justify-content: end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+#pesquisa form input{
+    height: 40px;
+    width: 250px;
+}
+
+#conteudo{
+    background-color: lightgray;
+    padding-left: 75px;
+    padding-right: 75px;
+}
